@@ -16,42 +16,54 @@
 			<nav class="menu_web">
 				<ul>
 					<li>
-						<a href="../index.html">HOME</a>
+						<a href="home.php">HOME</a>
 					</li>
 					<li>
-						<a href="servicos.html">SERVIÇOS</a>
+						<a href="servicos.php">SERVIÇOS</a>
 					</li>
 					<li>
-						<a href="empresa.html">EMPRESA</a>
+						<a href="empresa.php">EMPRESA</a>
 					</li>
 					<li>
 						<a href="#">SOU PROFISSIONAL</a>
+					</li>
+					<li>
+						<a href="perfil.php">PERFIL</a>
+					</li>
+					<li>
+						<a href="#">SAIR</a>
 					</li>
 				</ul>
 			</nav>
-			<a href="login.html" class="btn-site">Solicite um orçamento</a>
+			<a href="solicitacao.php" class="btn-site">Solicite um orçamento</a>
 		</div>
 		<nav class="menu_mobile">
-				<ul>
-					<li>
-						<a href="../index.html">HOME</a>
-					</li>
-					<li>
-						<a href="servicos.html">SERVIÇOS</a>
-					</li>
-					<li>
-						<a href="empresa.html">EMPRESA</a>
-					</li>
-					<li>
-						<a href="#">SOU PROFISSIONAL</a>
-					</li>
-				</ul>
+			<ul>
+				<li>
+					<a href="home.php">HOME</a>
+				</li>
+				<li>
+					<a href="servicos.php">SERVIÇOS</a>
+				</li>
+				<li>
+					<a href="empresa.php">EMPRESA</a>
+				</li>
+				<li>
+					<a href="#">SOU PROFISSIONAL</a>
+				</li>
+				<li>
+					<a href="perfil.php">PERFIL</a>
+				</li>
+				<li>
+					<a href="#">SAIR</a>
+				</li>
+			</ul>
 			</nav>
 		
 	</header>
 	<nav>
 		<span>
-			<a href="../index.html">Inicio</a>
+			<a href="home.php">Inicio</a>
 		</span>
 		<span>></span>
 		<span>Empresa</span>
@@ -72,8 +84,8 @@
 		</section>
 	</main>
 	<footer>
-		<a href="../index.html">home</a> <a href="servicos.html">serviços</a> <a href="empresa.html">empresa</a>
-		<a href="#">sou profissional</a>
+		<a href="home.php">home</a> <a href="servicos.php">serviços</a> <a href="empresa.php">empresa</a>
+		<a href="#">sou profissional</a> <a href="perfil.php">perfil</a> <a href="#">sair</a>
 		<p>&copy; Desenvolvido por Jeferson Valgoi - 2023</p>
 </footer>
 </body>

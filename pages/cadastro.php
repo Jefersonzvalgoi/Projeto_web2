@@ -18,53 +18,8 @@
 				<img class="bt_menu" alt="Menu do site" src="../img/menu.png">
 			</button>
 			<img alt="Logo do site" src="../img/logo.png"> 
-			<nav class="menu_web">
-				<ul>
-					<li>
-						<a href="../index.html">HOME</a>
-					</li>
-					<li>
-						<a href="servicos.html">SERVIÇOS</a>
-					</li>
-					<li>
-						<a href="empresa.html">EMPRESA</a>
-					</li>
-					<li>
-						<a href="#">SOU PROFISSIONAL</a>
-					</li>
-				</ul>
-			</nav>
-			<a href="login.html" class="btn-site">Solicite um orçamento</a>
-		</div>
-		<nav class="menu_mobile">
-				<ul>
-					<li>
-						<a href="../index.html">HOME</a>
-					</li>
-					<li>
-						<a href="servicos.html">SERVIÇOS</a>
-					</li>
-					<li>
-						<a href="empresa.html">EMPRESA</a>
-					</li>
-					<li>
-						<a href="#">SOU PROFISSIONAL</a>
-					</li>
-				</ul>
-			</nav>
-		
+		</div>		
 	</header>
-	<nav>
-		<span>
-			<a href="../index.html">Inicio</a>
-		</span>
-		<span>></span>
-		<span>
-			<a href="login.html">Login</a>
-		</span>
-		<span>></span>
-		<span>Cadastro</span>
-	</nav>
 	<main>
 		<section>
 			<img alt="Logo do Site" src="../img/logo.png">
@@ -74,13 +29,13 @@
 				<span>Manutenções em geral</span>
 					<div class="box-user">
 						<span>Email</span> 
-						<input type="text" name="email" autofocus>
+						<input type="email" name="user_email" id="user_email" autofocus required>
 						<span>Senha</span> 
-						<input type="password" name="senha"> 
+						<input type="password" name="user_password" id="user_password" required minlength="8"> 
 						<span>Nome</span> 
-						<input type="text" name="nome">
+						<input type="text" name="user_name" id="user_name" required>
 						<span>Telefone</span> 
-						<input type="text" name="fone" class="phone"> 
+						<input type="text" name="user_phone" id="user_phone" required class="phone"> 
 					</div>
 					<button type="submit" class="btn-site">Cadastrar</button>
 				</form>
@@ -88,10 +43,8 @@
 		</section>
 	</main>
 	<footer>
-		<a href="../index.html">home</a> <a href="servicos.html">serviços</a> <a href="empresa.html">empresa</a>
-		<a href="#">sou profissional</a>
 		<p>&copy; Desenvolvido por Jeferson Valgoi - 2023</p>
-</footer>
+	</footer>
 	<script>
 		$('.phone').mask('(00)00000-0000');
 	</script>
