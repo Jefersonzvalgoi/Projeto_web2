@@ -88,8 +88,6 @@
             	<button class="btn-site">Excluir</button>
 			</div>
 		</section>
-		
-		
 	</main>
 	<footer>
 		<a href="home.php">home</a> <a href="servicos.php">serviços</a> <a href="empresa.php">empresa</a>
