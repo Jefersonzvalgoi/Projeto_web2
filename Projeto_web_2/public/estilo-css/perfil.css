@@ -23,6 +23,10 @@ body > main > section > div {
     display: flex;
     align-items: end;
 }
+p{
+    margin-bottom: 1rem;
+    width: 20rem;
+}
 body > main > section > div > .btn-site{
     font-size: 0.6rem;
 	margin: 0.5rem;

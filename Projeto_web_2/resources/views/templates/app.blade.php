@@ -25,17 +25,17 @@
 						<a href="/empresa">EMPRESA</a>
 					</li>
 					<li>
-						<a href="#">SOU PROFISSIONAL</a>
+						<a href="">SOU PROFISSIONAL</a>
 					</li>
 					<li>
-						<a href="/perfil">PERFIL</a>
+						<a href="{{route('solicitation.index')}}">PERFIL</a>
 					</li>
 					<li>
-						<a href="#">SAIR</a>
+						<a href="{{route('logout')}}">SAIR</a>
 					</li>
 				</ul>
 			</nav>
-			<a href="/solicitacao" class="btn-site">Solicite um orçamento</a>
+			<a href="{{route('solicitation.create')}}" class="btn-site">Solicite um orçamento</a>
 		</div>
 		<nav class="menu_mobile">
 				<ul>
@@ -52,10 +52,10 @@
 						<a href="#">SOU PROFISSIONAL</a>
 					</li>
 					<li>
-						<a href="/perfil">PERFIL</a>
+						<a href="{{route('solicitation.index')}}">PERFIL</a>
 					</li>
 					<li>
-						<a href="#">SAIR</a>
+						<a href="{{route('logout')}}">SAIR</a>
 					</li>
 				</ul>
 			</nav>
@@ -69,7 +69,7 @@
 	</main>
 	<footer>
 		<a href="/home">home</a> <a href="/servicos">serviços</a> <a href="/empresa">empresa</a>
-		<a href="#">sou profissional</a> <a href="/perfil">perfil</a> <a href="#">sair</a>
+		<a href="#">sou profissional</a> <a href="{{route('solicitation.index')}}">perfil</a> <a href="{{route('logout')}}">sair</a>
 		<p>&copy; Desenvolvido por Jeferson Valgoi - 2023</p>
 	</footer>
 </body>

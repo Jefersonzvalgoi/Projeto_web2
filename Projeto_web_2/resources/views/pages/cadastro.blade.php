@@ -21,18 +21,19 @@
 		<section>
 			<img alt="Logo do Site" src="../img/logo.png">
 			<article>
-				<form action="/home" method="post">
-				<h1>Marido de Aluguel</h1>
+				<form action="{{route('user.register')}}" method="post">
+				@csrf
+                <h1>Marido de Aluguel</h1>
 				<span>Manutenções em geral</span>
 					<div class="box-user">
 						<span>Email</span>
-						<input type="email" name="user_email" id="user_email" autofocus required>
+						<input type="email" name="email" id="email" value="{{old('email')}}" autofocus required>
 						<span>Senha</span>
-						<input type="password" name="user_password" id="user_password" required minlength="8">
+						<input type="password" name="password" id="password" required minlength="8">
 						<span>Nome</span>
-						<input type="text" name="user_name" id="user_name" required>
+						<input type="text" name="name" id="name" value="{{old('name')}}" required>
 						<span>Telefone</span>
-						<input type="text" name="user_phone" id="user_phone" required class="phone">
+						<input type="text" name="phone" id="phone" value="{{old('phone')}}" required class="phone">
 					</div>
 					<button type="submit" class="btn-site">Cadastrar</button>
 				</form>

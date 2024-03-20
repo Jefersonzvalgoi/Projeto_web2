@@ -6,9 +6,9 @@ function menuShow(){
 		document.querySelector('.bt_menu').src ="../img/menu.png"
 	}else{
 		menu.classList.add('dBlock')
-		document.querySelector('.bt_menu').src ="../img/menuX.png"
+		document.querySelector('.bt_menu').src ="../img/menux.png"
 	}
 }
 /**
- * 
+ *
  */
